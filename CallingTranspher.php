@@ -1,8 +1,8 @@
 <?php
  
     // if the caller pressed anything but 1 send them back
-    if($_REQUEST['Digits'] == '1') {
-        header("Location: CallKumataro.php");
+    if($_REQUEST['Digits'] != '1') {
+        header("Location: OrderNegi.php");
         die;
     }
      
@@ -11,6 +11,6 @@
     echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 ?>
 <Response>
-    <Dial>+81345895794</Dial>
+    <Dial>+8145308972</Dial>
     <Say language="ja-jp">あいにくこちらの電話番号はつかわれておりません。 さようなら。</Say>
 </Response>
