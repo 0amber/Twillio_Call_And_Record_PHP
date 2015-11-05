@@ -16,10 +16,14 @@
 				<p class='description'></p> Thanks for creating a <span class="blue">PHP Starter Application</span>. Get started by reading our <a
 				href="https://www.ng.bluemix.net/docs/#starters/php/index.html#php">documentation</a>
 				or use the Start Coding guide under your app in your dashboard.
-				<td>Recognizing calller and send messsage<br>
-				<a>http://toshimahakersonproto.mybluemix.net/SayHelloToEveryone.php</a>
-				</td>
 			</td>
+				<td>OrderNegi<br><a href="http://toshimahakersonproto.mybluemix.net/OrderNegi.php"></a>
+				</td>
+				<td>CallingTranspher<br><a href="http://toshimahakersonproto.mybluemix.net/CallingTranspher.php"></a>
+				</td>
+				<td>CallingKumataro<br><a href="http://toshimahakersonproto.mybluemix.net/CallKumataro.php"></a>
+				</td>
+
 		</tr>
 	</table>
 </body>
