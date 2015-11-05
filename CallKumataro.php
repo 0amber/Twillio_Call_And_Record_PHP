@@ -3,7 +3,7 @@
     // make an associative array of callers we know, indexed by phone number
     $people = array(
         "+818041456716"=>"ぶー",
- //       "+14158675310"=>"Boots",
+        "+819023003235"=>"かぴぱら",
  //       "+14158675311"=>"Virgil",
  //       "+14158675312"=>"Marcel"
     );
