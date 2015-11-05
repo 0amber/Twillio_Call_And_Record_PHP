@@ -20,6 +20,6 @@
 <Response>
     <Say language="ja-jp">こんにちは <?php echo $name ?>.さん</Say>
     <Gather numDigits="1" action="CallingTranspher.php" method="POST">
-        <Say language="ja-jp>株式会社ねぎへようこそ　ねぎの電話注文の場合は 1を.  もう一度聞きたい場合は他のダイヤルと押して下さい.</Say>
+        <Say language="ja-jp">株式会社ねぎへようこそ　ねぎの電話注文の場合は 1を.  もう一度聞きたい場合は他のダイヤルと押して下さい.</Say>
     </Gather>
 </Response>
