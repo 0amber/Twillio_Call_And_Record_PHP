@@ -7,7 +7,6 @@
  //       "+14158675311"=>"Virgil",
  //       "+14158675312"=>"Marcel"
     );
-     
     // if the caller is known, then greet them by name
     // otherwise, consider them just another monkey
     if(!$name = $people[$_REQUEST['From']])
@@ -20,4 +19,5 @@
 <Response>
     <Say language="ja-jp">こんにちは <?php echo $name ?>.さん </Say>
     <Play>http://toshimahakersonproto.mybluemix.net/message/Kumataro/Kumataro_out.mp3</Play>
+    <Record maxLength="30" />
 </Response>
