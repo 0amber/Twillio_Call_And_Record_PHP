@@ -18,6 +18,6 @@
     echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 ?>
 <Response>
-    <Say language="ja-jp">こんにちは <?php echo $name ?>.さん　くまたろうです。あいにく出かけておりますので、またお電話します。</Say>
-    <Play>http://demo.twilio.com/hellomonkey/monkey.mp3</Play>
+    <Say language="ja-jp">こんにちは <?php echo $name ?>.さん </Say>
+    <Play>http://toshimahakersonproto.mybluemix.net/message/Kumataro/Kumataro_out.mp3</Play>
 </Response>
