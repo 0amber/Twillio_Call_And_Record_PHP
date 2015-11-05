@@ -1,7 +1,7 @@
 <?php
  
     // if the caller pressed anything but 1 send them back
-    if($_REQUEST['Digits'] != '1') {
+    if($_REQUEST['Digits'] == '1') {
         header("Location: CallKumataro.php");
         die;
     }
@@ -12,5 +12,5 @@
 ?>
 <Response>
     <Dial>+13105551212</Dial>
-    <Say language="ja-jp">あいにくこちらの電話番号はつかわれておりません。さようならー</Say>
+    <Say language="ja-jp">あいにくこちらの電話番号はつかわれておりません。 さようなら。</Say>
 </Response>
