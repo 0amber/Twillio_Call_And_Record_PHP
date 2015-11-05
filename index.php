@@ -17,11 +17,11 @@
 				href="https://www.ng.bluemix.net/docs/#starters/php/index.html#php">documentation</a>
 				or use the Start Coding guide under your app in your dashboard.
 			</td>
-				<td>OrderNegi<br><a href="http://toshimahakersonproto.mybluemix.net/OrderNegi.php"></a>
+				<td><a href="http://toshimahakersonproto.mybluemix.net/OrderNegi.php">OrderNegi</a>
 				</td>
-				<td>CallingTranspher<br><a href="http://toshimahakersonproto.mybluemix.net/CallingTranspher.php"></a>
+				<td><a href="http://toshimahakersonproto.mybluemix.net/CallingTranspher.php">CallingTranspher</a>
 				</td>
-				<td>CallingKumataro<br><a href="http://toshimahakersonproto.mybluemix.net/CallKumataro.php"></a>
+				<td>CallingKumataro<a href="http://toshimahakersonproto.mybluemix.net/CallKumataro.php">CallingKumataro</a>
 				</td>
 
 		</tr>
