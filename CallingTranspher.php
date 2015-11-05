@@ -11,6 +11,6 @@
     echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 ?>
 <Response>
-    <Dial>+13105551212</Dial>
+    <Dial>+81345895794</Dial>
     <Say language="ja-jp">あいにくこちらの電話番号はつかわれておりません。 さようなら。</Say>
 </Response>
