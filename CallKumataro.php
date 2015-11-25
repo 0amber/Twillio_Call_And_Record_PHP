@@ -2,8 +2,7 @@
  
     // make an associative array of callers we know, indexed by phone number
     $people = array(
-        "+818041456716"=>"ぶー",
-        "+819023003253"=>"かぴぱら",
+        "+818041456716"=>"島田",
  //       "+14158675311"=>"Virgil",
  //       "+14158675312"=>"Marcel"
     );
@@ -17,7 +16,6 @@
     echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 ?>
 <Response>
-    <Say language="ja-jp">こんにちは <?php echo $name ?>.さん </Say>
-    <Play>http://toshimahakersonproto.mybluemix.net/message/Kumataro/Kumataro_out.mp3</Play>
+    <Say language="ja-jp">こんにちは <?php echo $name ?>.さん。 現在外出しておりますので、メッセージに録音をお願いいたします。</Say>
     <Record maxLength="30" />
 </Response>

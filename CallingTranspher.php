@@ -12,5 +12,5 @@
 ?>
 <Response>
     <Dial>+81345308972</Dial>
-    <Say language="ja-jp">あいにくこちらの電話番号はつかわれておりません。 さようなら。</Say>
+    <Say language="ja-jp">あいにく こちらの電話番号はつかわれておりません。 さようなら。</Say>
 </Response>
